@@ -132,7 +132,7 @@ main {
 /* Animtion end here */
 
 .btn-ready-build {
-  padding: 1rem 3rem ;
+  padding: 1rem;
   width: 75%;
   transition: all 0.25s;
 }
@@ -352,6 +352,19 @@ main {
 }
 
 /* Media quries */
+
+@media only screen and (min-width: 28.125rem) {
+  .btn-hero {
+    margin: 2.5rem auto;
+    width: 60%;
+  }
+
+  .btn-ready-build {
+    font-size: 1rem;
+    padding: 1rem 4rem;
+    width: unset;
+  }
+}
 
 /* For screen width equal or more than to width of 600px */
 
