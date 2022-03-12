@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://www.frontendmentor.io/solutions/clipboardlandingpagebyjust9krish-lYazGTWJU)
-- Live Site URL: [Click here](https://github.com/Just9krish/Huddle-Landing-Page)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-solution-dD4eZlCXS)
+- Live Site URL: [Click here](https://huddle-landing-page-block.netlify.app/)
 
 ## My process
 
