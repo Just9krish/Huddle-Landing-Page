@@ -117,6 +117,7 @@ main {
   animation: up-down 3s infinite;
 }
 
+/* Animation  */
 @keyframes up-down {
   0% {
     transform: translateY(-10px);
@@ -128,6 +129,7 @@ main {
     transform: translateY(-10px);
   }
 }
+/* Animtion end here */
 
 .btn-ready-build {
   padding: 1rem;
@@ -152,6 +154,7 @@ main {
   transition: all 0.25s;
 }
 
+/* Hero sectio */
 .hero {
   text-align: center;
   padding: 2rem;
@@ -200,6 +203,8 @@ main {
   line-height: 1.7;
   color: var(--Grayish-Blue);
 }
+
+/* Ready to  build community section */
 
 .ready-build {
   background: #fff;
@@ -315,12 +320,10 @@ main {
 .footer-social:focus {
   border: 1px solid var(--Pink);
   fill: var(--Pink);
-  -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
 
 .footer-social:active {
-  -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 
@@ -350,6 +353,8 @@ main {
 
 /* Media quries */
 
+/* For screen width equal or more than to width of 600px */
+
 @media only screen and (min-width: 600px) {
   .hero-container-heading {
     font-style: 2.3rem;
@@ -372,6 +377,8 @@ main {
     max-width: 400px;
   }
 }
+
+/* For screen width equal or more than to width of 800px */
 
 @media only screen and (min-width: 800px) {
   .f-direction {
@@ -472,6 +479,8 @@ main {
   }
 }
 
+/* For screen width equal or more than to width of 1052px */
+
 @media only screen and (min-width: 1052px) {
   body {
     font: 1.125rem;
@@ -530,6 +539,8 @@ main {
   }
 }
 
+/* For screen width equal or more than to width of 1200px */
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 81.25rem;
@@ -578,3 +589,5 @@ main {
     column-gap: 12rem;
   }
 }
+
+/* The end of css */
